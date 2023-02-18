@@ -1,0 +1,116 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    
+}
+#header
+{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#headvideo
+{
+    width: 100%;    
+    position: absolute;
+    z-index: 0;
+    
+
+}
+#headerheading
+{
+ color: black;
+ font-size: 120px; 
+ position: relative;
+ text-shadow: 0px 5px 10px white;
+ 
+}
+i
+{
+    font-size: 100px;
+    color: black;
+}
+#a
+{
+    padding-left: 30px;
+}
+#iconsdiv
+{
+    position: absolute;
+    right: 1%;
+    bottom: 1%;
+    
+}
+#a :hover
+{
+    color: rgb(0, 217, 255);
+}
+#address
+{
+    width: 40%;
+    height: 400px;
+    float: left; 
+    background-color: rgb(223, 81, 180);
+    border-radius: 15%;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 8%;
+    left: 8%;
+    box-shadow: 0px 0px 10px black;
+    border: 5px black solid;
+    
+}
+#mapheading
+{
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+
+    
+}
+#mappara
+{
+    font-size: 25px;
+    text-align: center;
+}
+
+#map
+{
+    
+    width: 40%;
+    height: 400px;
+    float: right;
+    position: relative;
+    top: 8%;
+    right: 8%;
+    border: 5px black ridge;
+    overflow: hidden;
+    border-radius: 15%;
+    box-shadow: 0px 0px 10px black;   
+}
+#mappin:hover
+{
+    width: 110%;
+    height: 500px;
+}
+#footer
+{
+    width: 100%;
+    height: 60px;
+    background-color: grey;
+    box-shadow: 0px 5px 10px black;
+    float: left;
+    position: relative;
+    bottom: -12%;
+    z-index: 5;
+
+}

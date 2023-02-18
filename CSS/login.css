@@ -1,0 +1,150 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    
+}
+#header
+{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#headvideo
+{
+    width: 100%;    
+    position: absolute;
+    z-index: 0;
+    
+
+}
+#headerheading
+{
+ color: black;
+ font-size: 120px; 
+ position: relative;
+ text-shadow: 0px 5px 10px white;
+ 
+}
+i
+{
+    font-size: 100px;
+    color: black;
+}
+#a
+{
+    padding-left: 30px;
+}
+#iconsdiv
+{
+    position: absolute;
+    right: 1%;
+    bottom: 10%;
+    z-index: 4;
+    
+}
+#a :hover
+{
+    color: rgb(0, 217, 255);
+}
+#logindetails
+{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    z-index: 1;
+}
+#sec1
+{
+    width: 50%;
+    height: 800px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#sec2
+{
+    width: 50%;
+    height: 800px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#loginvideo
+{
+    width: 100%;
+    height: 600px;
+    
+}
+
+#form
+{
+    width: 60%;
+    height: 600px;
+    border: 5px ridge;
+}
+#form1
+{
+    width: 60%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px black double;
+}
+#formtable
+{
+    font-size: 15px;
+    color: white;
+}
+tr
+{
+    width: 100%;
+    height: 75px;
+}
+#h1
+{
+    font-size: 60px;
+    font-weight: bold;
+}
+#ip
+{
+    width: 98%;
+    height: 70px;
+    font-size: 50px;
+    margin: 1px;
+}
+#iop1
+{
+    width: 50%;
+    height: 50px;
+    font-size: 30;
+    position: relative;
+    left: 25%;
+    border-radius: 50%;
+}
+#str1
+{
+    font-size: 45px;
+}
+#abc
+{
+    font-size: 50px;
+}
+#footer
+{
+    width: 100%;
+    height: 60px;
+    background-color: grey;
+    box-shadow: 0px 5px 10px black;
+    float: left;
+    
+
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../CSS/navbar.css">
+    <link rel="stylesheet" href="../CSS/Gallery .css">
+    <script src="../Java Script/Gallery.js" defer></script>
+</head>
+<body onload="colo()">
+    <div id="a">
+        <h1 id="heading"></h1>
+    </div>
+    <div id="bigscreen" class="fullScreenImg" style="display:none" onclick="imgV()">
+        <img id="fullImg" src="../Asset/Images/a.jpg">
+        <h1 id="imgheading">Heading</h1>
+        <p id="imgparagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit sapiente voluptatum exercitationem id omnis sunt deleniti necessitatibus soluta quas! Nesciunt.</p>
+    </div>
+    <div id="navbar">
+        <ul id="mainlist">
+            <li class="li"> <a href="#"> Home </a></li>
+            <li class="li" id="sublistplace" >Places
+                <ul id="sublist">
+                    <li class="sli">India</li>
+                    <li class="sli">Dubai</li>
+                    <li class="sli">Srilanka</li>
+                    <li class="sli">Thailand</li>
+                    <li class="sli">Korea</li>
+                </ul>
+            </li>
+            <li class="li"> <a href="#"> Info </a></li>
+            <li class="li"> <a href="#"> Logout </a></li>
+        </ul>
+    </div>
+    <!--From here body of gallery starts-->
+    <div class="bodyOfGallary">
+        <img src="../Asset/Images/a.jpg" onclick="imgK(this.src,'Tiger in Water','Tiger Zinda hey in water and it is swimming')">
+        <img src="../Asset/Images/b.jpg" onclick="imgK(this.src,'Tiger in this','Tiger Zinda hey in water and it is swimming')">
+        <img src="../Asset/Images/c.jpg" onclick="imgK(this.src,'Tiger in Water','Tiger Zinda hey in water and it is swimming')">
+        <img src="../Asset/Images/d.jpg" onclick="imgK(this.src,'Tiger in Water','Tiger Zinda hey in water and it is swimming')">
+        <img src="../Asset/Images/e.jpg" onclick="imgK(this.src,'Tiger in Water','Tiger Zinda hey in water and it is swimming')">
+        <img src="../Asset/Images/f.jpg" onclick="imgK(this.src,'Tiger in Water','Tiger Zinda hey in water and it is swimming')">
+        <img src="../Asset/Images/g.jpg" onclick="imgK(this.src,'Tiger in Water','Tiger Zinda hey in water and it is swimming')">
+        <img src="../Asset/Images/h.jpg" onclick="imgK(this.src,'Tiger in Water','Tiger Zinda hey in water and it is swimming')">
+    </div>
+</body>
+</html>
